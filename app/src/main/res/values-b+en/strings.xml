@@ -12,4 +12,5 @@
     <string name="log_in">Iniciar sesión</string>
     <string name="hint_user">Ingresa tu nombre de usuario</string>
     <string name="hint_password">Escribe tu contraseña</string>
+    <string name="sign_up">Registrar</string>
 </resources>
