@@ -13,4 +13,6 @@
     <string name="hint_user">Ingresa tu nombre de usuario</string>
     <string name="hint_password">Escribe tu contraseña</string>
     <string name="sign_up">Registrar</string>
+    <string name="edtForgotPassword">¿Olvidaste tu contraseña?</string>
+    <string name="register">O incia sesion con una red social</string>
 </resources>
