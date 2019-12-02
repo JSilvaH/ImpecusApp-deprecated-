@@ -9,10 +9,10 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="log_in">Iniciar sesión</string>
-    <string name="hint_user">Ingresa tu nombre de usuario</string>
-    <string name="hint_password">Escribe tu contraseña</string>
-    <string name="sign_up">Registrar</string>
-    <string name="edtForgotPassword">¿Olvidaste tu contraseña?</string>
-    <string name="register">O incia sesion con una red social</string>
+    <string name="log_in">Login</string>
+    <string name="hint_user">Type your username</string>
+    <string name="hint_password">Type your password</string>
+    <string name="sign_up">Register</string>
+    <string name="edtForgotPassword">Forgot your password?</string>
+    <string name="register">or login with a social network</string>
 </resources>
