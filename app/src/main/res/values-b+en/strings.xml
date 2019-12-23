@@ -15,4 +15,8 @@
     <string name="sign_up">Register</string>
     <string name="edtForgotPassword">Forgot your password?</string>
     <string name="register">or login with a social network</string>
+    <string name="registerAccount">Registrar</string>
+    <string name="country">Pais</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="phone">Telefono</string>
 </resources>
