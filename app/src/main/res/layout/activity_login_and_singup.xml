@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginAndSingupActiviy"
+    android:orientation="vertical"
+    android:gravity="bottom|center_horizontal"
     android:background="@drawable/background_singup_and_singin">
 
     <Button
         android:id="@+id/btnLoginStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="173dp"
         android:text="@string/log_in"
         android:background="@drawable/btn_login_background"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        />
 
     <Button
         android:id="@+id/btnSingUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/sign_up"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLoginStart"
-        app:layout_constraintVertical_bias="0.051" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="@string/sign_up"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edtForgotPassword"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>
